@@ -18,41 +18,31 @@ body.space {
 	justify-content: center;
 	align-items: center;
 }
-
 .planets {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 }
+
 #sun {
-	position:absolute;
+	top: 150px;
+	left: 200px;
 }
 
 @keyframes rotate_mercury {
-
 	0% {
-		transform: ;
-	}
-		25% {
-		transform: ;
-	}
-		50% {
-		transform: ;
-	}
-		75% {
-		transform: ;
+		transform: rotate(0deg)translateX(150px);
 	}
 		100% {
-		transform: ;
+		transform: rotate(360deg) translateX(150px);
 	}
 }
 #mercury {
-	position: relative;
-	left: 120px;
-	top: 20px;
+	animation: rotate_mercury 3s infinite linear;
+	margin: auto;
 }
 #penus {
-	position: relative;
+
 }
 #earth {
 
