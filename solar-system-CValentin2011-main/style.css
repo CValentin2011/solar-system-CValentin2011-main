@@ -25,23 +25,38 @@ body.space {
 }
 
 #sun {
-	top: 150px;
-	left: 200px;
+	top: 170px;
+	left: 355px;
+	height: 122px;
 }
 
 @keyframes rotate_mercury {
 	0% {
-		transform: rotate(0deg)translateX(150px);
+		transform: rotate(0deg)translateX(98px);
 	}
 		100% {
-		transform: rotate(360deg) translateX(150px);
+		transform: rotate(360deg) translateX(98px);
 	}
 }
 #mercury {
 	animation: rotate_mercury 3s infinite linear;
-	margin: auto;
+	top: 220px;
+	left: 379px;
+	height: 39px;
+}
+@keyframes rotate_penus {
+	0% {
+		transform: rotate(0deg)translateX(98px);
+	}
+		100% {
+		transform: rotate(360deg) translateX(98px);
+	}
 }
 #penus {
+	height: ;
+	animation: rotate_penus 3s infinite linear;
+	top: 260px;
+	left: 379px;
 
 }
 #earth {
