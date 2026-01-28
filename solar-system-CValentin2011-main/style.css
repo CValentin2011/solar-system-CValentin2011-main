@@ -46,16 +46,16 @@ body.space {
 }
 @keyframes rotate_penus {
 	0% {
-		transform: rotate(0deg)translateX(98px);
+		transform: rotate(0deg)translateX(150px);
 	}
 		100% {
-		transform: rotate(360deg) translateX(98px);
+		transform: rotate(360deg) translateX(150px);
 	}
 }
 #penus {
 	height: ;
 	animation: rotate_penus 3s infinite linear;
-	top: 260px;
+	top: 220px;
 	left: 379px;
 
 }
