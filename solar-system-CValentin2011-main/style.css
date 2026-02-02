@@ -129,7 +129,7 @@ body.space {
 #uranus {
 	height: ;
 	animation: rotate_uranus 840.1s infinite linear;
-	top: 460px;
+	top: 450px;
 	left: 350px;
 }
 @keyframes rotate_neptune {
@@ -144,7 +144,7 @@ body.space {
 	height: ;
 	animation: rotate_uranus 1647.9s infinite linear;
 	top: 530px;
-	left: 470px;
+	left: 490px;
 }
 @keyframes UFOLIVE_move {
 	0% {
