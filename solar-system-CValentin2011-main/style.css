@@ -17,6 +17,7 @@ body.space {
 	display: flex; /* centers the main content pane itself */
 	justify-content: center;
 	align-items: center;
+	scale: 60%;
 }
 .planets {
 	position: absolute;
@@ -25,7 +26,7 @@ body.space {
 }
 
 #sun {
-	top: 170px;
+	top: 240px;
 	left: 355px;
 	height: 122px;
 }
@@ -39,41 +40,136 @@ body.space {
 	}
 }
 #mercury {
-	animation: rotate_mercury 3s infinite linear;
-	top: 220px;
-	left: 379px;
+	animation: rotate_mercury 2.4s infinite linear;
+	top: 270px;
+	left: 389px;
 	height: 39px;
 }
 @keyframes rotate_penus {
 	0% {
-		transform: rotate(0deg)translateX(150px);
+		transform: rotate(0deg)translateX(180px);
 	}
 		100% {
-		transform: rotate(360deg) translateX(150px);
+		transform: rotate(360deg) translateX(180px);
 	}
 }
 #penus {
-	height: ;
-	animation: rotate_penus 3s infinite linear;
-	top: 220px;
+	height: 50px;
+	animation: rotate_penus 6.1s infinite linear;
+	top: 270px;
 	left: 379px;
 
 }
+@keyframes rotate_earth {
+	0% {
+		transform: rotate(0deg)translateX(280px);
+	}
+		100% {
+		transform: rotate(360deg) translateX(280px);
+	}
+}
 #earth {
+	height: 53px; ;
+	top: 260px;
+	left: 379px;
+	animation: rotate_earth 10s infinite linear;
 
+}
+@keyframes rotate_mars {
+		0% {
+		transform: rotate(0deg)translateX(380px);
+	}
+		100% {
+		transform: rotate(360deg) translateX(380px);
+	}
 }
 #thereisnowaterinmars {
+	height: 43px;
+	animation: rotate_mars 18.8s infinite linear;
+	top: 330px;
+	left:379px ;
 
+}
+@keyframes rotate_jupiter {
+		0% {
+		transform: rotate(0deg)translateX(480px);
+	}
+		100% {
+		transform: rotate(360deg) translateX(480px);
+	}
 }
 #jupiter {
-
+	height: ;
+	animation: rotate_jupiter 228.6s infinite linear;
+	top: 410px;
+	left: 375px;
+}
+@keyframes rotate_saturn {
+		0% {
+		transform: rotate(0deg)translateX(580px);
+	}
+		100% {
+		transform: rotate(360deg) translateX(580px);
+	}
 }
 #segasaturn {
-
+	height: ;
+	animation: rotate_saturn 294.4s infinite linear;
+	top: 420px; ;
+	left: 374px;
 }
-#your_anus {
-
+@keyframes rotate_uranus {
+		0% {
+		transform: rotate(0deg)translateX(730px);
+	}
+		100% {
+		transform: rotate(360deg) translateX(730px);
+	}
+}
+#uranus {
+	height: ;
+	animation: rotate_uranus 840.1s infinite linear;
+	top: 460px;
+	left: 350px;
+}
+@keyframes rotate_neptune {
+		0% {
+		transform: rotate(0deg)translateX(1020px);
+	}
+		100% {
+		transform: rotate(360deg) translateX(1020px);
+	}
 }
 #kingneptune {
-
+	height: ;
+	animation: rotate_uranus 1647.9s infinite linear;
+	top: 530px;
+	left: 470px;
+}
+@keyframes UFOLIVE_move {
+	0% {
+		transform: translateX(-2800px);
+	}
+	100% {
+		transform: translateX(2800px);
+	}
+}
+#UFOLIVE {
+	height: 80px;
+	top: -120px;
+	left: 0px;
+	animation:UFOLIVE_move 5s infinite;
+}
+@keyframes X_move {
+	0% {
+		transform: translateX(-2800px);
+	}
+	100% {
+		transform: translateX(2800px);
+	}
+}
+#X {
+	animation: X_move 5s infinite;
+	height: 80px;
+	top: -120px;
 }
